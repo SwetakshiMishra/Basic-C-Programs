@@ -5,6 +5,7 @@ using namespace std;
 class Armstrong {
     int num1, ran1, ran2, choice, count;
 
+
 public:
     void input_num() {
         cout << "Do you want to check a number for Armstrong (1) or find all Armstrong numbers in a range (2)? ";
