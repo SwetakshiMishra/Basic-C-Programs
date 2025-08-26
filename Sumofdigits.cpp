@@ -5,6 +5,7 @@ using namespace std;
 class Number {
     int num;
 
+
 public:
     void number_entry() {
         cout << "Enter the number you want to sum the digits of: ";
