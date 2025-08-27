@@ -15,6 +15,7 @@ public:
         cout << "Enter the binary number: ";
         cin >> binary;
 
+    
         num_str = to_string(binary);  // convert to string for digit access
     }
 
@@ -29,6 +30,7 @@ public:
             }
             power++;  // Move to next higher power of 2
         }
+        
 
         cout << "Decimal equivalent: " << decimal << endl;
     }
